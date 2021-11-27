@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o landing_page",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.4",
+    "autoprefixer": "^10.2.6",
+    "next": "10.2.3",
+    "postcss": "^8.3.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.34.1",
+    "tailwindcss": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/gtag.js": "^0.0.7",
+    "@types/react": "17.0.11",
+    "typescript": "4.3.2"
+  }
+}

@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  app:
+    container_name: asagao-lp
+    image: node:14-alpine
+    tty: true
+    working_dir: /usr/src/app
+    volumes:
+      - ./app/:/usr/src/app
+    ports:
+      - 8006:3000
+    environment:
+      - HOST=0.0.0.0
+    command: yarn dev
